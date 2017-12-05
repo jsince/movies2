@@ -1,7 +1,6 @@
 <% include partials/header %>
+<div class="jumbotron jumbotron-fluid" style="padding-left:10px">
 <h2>   Top 10 Movie Results</h2>
-
-
 <div class="row" style="display:flex; flex-wrap: wrap;">
 	<% data["Search"].forEach(function(movie) { %>
 	<div class="col-sm-2">
@@ -18,4 +17,4 @@
 <a href="/">Search Again!</a>
 
 <% include partials/footer %>
-
+</div>
